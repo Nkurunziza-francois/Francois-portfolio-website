@@ -352,6 +352,10 @@ nav .fas{
 @media only screen and (max-width: 600px){
     #header{
         background-image: url(images/Nkurunziza_small.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        
     }
     .header-text{
         margin-top: 100%;
