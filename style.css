@@ -349,7 +349,7 @@ nav .fas{
     display: none;
 }
 /* Common styles for both Android and iPhone devices */
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 414px) {
     #header {
         background-image: url(images/Nkurunziza_small.png);
         background-size: cover;
@@ -413,13 +413,7 @@ nav .fas{
     }
 }
 
-/* Additional styles for Android devices */
-@media only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
-    /* Add any specific styles for Android devices if needed */
-}
 
-/* Additional styles for iPhone devices */
-@media only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
     #msg {
         color: #61b752;
         margin-top: -40px;
