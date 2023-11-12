@@ -348,7 +348,6 @@ form .btn2{
 nav .fas{
     display: none;
 }
-
 /* Common styles for both Android and iPhone devices */
 @media only screen and (max-width: 600px) {
     #header {
