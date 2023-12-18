@@ -355,7 +355,7 @@ nav .fas{
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        max-height: fit-content;
+        height: 100vh;
     }
     .header-text {
         margin-top: 100%;
