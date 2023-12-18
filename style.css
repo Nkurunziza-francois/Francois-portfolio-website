@@ -11,13 +11,12 @@ body{
     background: #062326;
     color: #fff;
 }
-#header{
+#header {
     width: 100%;
     height: 100vh;
     background-image: url(images/Francois_background1.png);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
 }
 .container{
     padding: 10px 10%;
@@ -349,21 +348,24 @@ nav .fas{
     display: none;
 }
 /* Common styles for both Android and iPhone devices */
+
 @media only screen and (max-width: 600px) {
     #header {
         background-image: url(images/Nkurunziza_small.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 100vh;
+        background-attachment: scroll; /* Change background-attachment */
     }
+
     .header-text {
-        margin-top: 100%;
-        font-size: 16px;
+        margin-top: 50%;
+        font-size: 14px;
     }
+
     .header-text h1 {
-        font-size: 30px;
+        font-size: 24px;
     }
+
+
+    
     nav .fas {
         display: block;
         font-size: 25px;
