@@ -17,7 +17,7 @@ body{
     background-image: url(images/Francois_background1.png);
     background-size: cover;
     background-position: center;
-    background-attachment: scroll;
+    
 }
 .container{
     padding: 10px 10%;
