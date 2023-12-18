@@ -349,16 +349,20 @@ nav .fas{
     display: none;
 }
 /* Common styles for both Android and iPhone devices */
-
 @media only screen and (max-width: 600px) {
     #header {
         background-image: url(images/Nkurunziza_small.png);
-        background-attachment: scroll; /* Change background-attachment */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
     }
-
     .header-text {
-        margin-top: 50%;
-        font-size: 14px;
+        margin-top: 100%;
+        font-size: 16px;
+    }
+    .header-text h1 {
+        font-size: 30px;
     }
 
     .header-text h1 {
